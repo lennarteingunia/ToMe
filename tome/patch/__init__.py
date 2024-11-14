@@ -7,6 +7,7 @@
 
 from .swag import apply_patch as swag
 from .timm import apply_patch as timm
-from .mae  import apply_patch as mae
+from .mae import apply_patch as mae
+from .vjepa import apply_patch as vjepa
 
-__all__ = ["timm", "swag", "mae"]
+__all__ = ["timm", "swag", "mae", "vjepa"]
